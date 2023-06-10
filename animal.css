@@ -1,7 +1,7 @@
 .tiger {
     border-radius: 50%;
-    max-width: 50%;
-    max-height: 50%;
+    max-width: 30%;
+    max-height: 30%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -9,3 +9,14 @@
 .mainheader{
     text-align: center;
 }
+.moreAnimals {
+    padding: 25px 32px;
+    text-align: center;
+    display: block;
+    font-size: 12px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .des {
+    text-align: center;
+  }
