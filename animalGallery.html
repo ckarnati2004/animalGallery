@@ -4,10 +4,16 @@
             Animal Gallery
         </title>
         <link rel="stylesheet" href="animal.css">
-
+        <script src="functions.js" ></script>
     </head>
     
     <body>
+        <button onclick="greeting()">Greet</button>
+        <input type="checkbox">
+        <input type="email">
+        <input type="password">
+        <input type="date">
+        <p id="greet">len</p>
         <h1 class="mainHeader">
                 My Animals
         </h1>
@@ -15,10 +21,23 @@
            <p class="des">
             Are you interested in more animals?
            </p>
-           <a href="https://www.freepik.com/free-vector/set-wild-animals_4771105.htm#query=animal%20clipart&position=0&from_view=keyword&track=ais">
-            <button class="moreAnimals">  
+           
+        <!--<a href="https://www.freepik.com/free-vector/set-wild-animals_4771105.htm#query=animal%20clipart&position=0&from_view=keyword&track=ais"> -->
+            <button class="moreAnimals" >  
                     More Animals
-           </button>    
+           </button> 
+           <p class="des">
+            Click to change images
+           </p>   
+           <img id="catImage" src="https://i.guim.co.uk/img/media/26392d05302e02f7bf4eb143bb84c8097d09144b/446_167_3683_2210/master/3683.jpg?width=620&quality=45&dpr=2&s=none" height="200" width="200" class="catImage">
+           <button id="navigation1" onclick="showCat()"> Next </button>
+           <button id="navigation2" onclick="showCat1()"> Previous </button>
+           <p id="Len">Len</p>
+           <script>
+            let arr=[20,30,40];
+            let l=arr.length;
+            document.getElementById('Len').innerHTML=l;
+           </script>
         </a>
     </body>
 </html>
